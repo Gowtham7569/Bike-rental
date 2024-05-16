@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:'poppins' sans-serif;
+}
+section{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background:black;
+    background: url(loginpage.jpg) no-repeat;
+    background-size: cover;
+    padding-left: 900px;
+    padding-top: 200px;
+}
+.wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    background: transparent;
+    border:5px solid #fff;
+    border-radius: 10px;
+    transition: .5s;
+    
+}
+.wrapper:hover{
+    border:5px solid white;
+    box-shadow: 0 0 30px   white,inset  0 0 10px  white;
+    
+}
+h2{
+    font-size:2em;
+    text-align: center;
+    color: #fff;
+    transition: 0.5s;
+}
+.wrapper:hover h2{
+    color: white;
+}
+.input-box{
+    position: relative;
+    width: 320px;
+    margin: 30px 0;
+
+}
+.input-box input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border:2px solid #fff;
+    outline:none;
+    border-radius: 5px;
+    font-size: 1em;
+    color:#fff;
+    padding:0 100px 0 35px;
+  transition: .5s;
+
+
+}
+.wrapper:hover .input-box input{
+    border:5px solid  white;
+    box-shadow: 0 0 20px  white,inset  0 0 20px   white;
+}
+.input-box input::placeholder{
+    color: white;
+
+}
+.input-box .icon{
+    position: absolute;
+    left: 10px;
+    color:white;
+    font-size: 1.2em;
+    line-height: 55px;
+    transition: .5s;
+}
+.wrapper:hover .input-box .icon{
+    color: white;
+}
+    .forgot-pass{
+    margin: -15px,0,15px;
+
+}
+.forgot-pass a {
+    color: #110202;
+    font-size: .9em;
+     text-decoration: none;
+}
+.forgot-pass a:hover{
+    text-decoration: underline;
+}
+button{
+position: relative;
+width: 100%;
+height: 45px;
+background: #fff;
+border: none;
+outline: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 1em;
+color:#fff;
+font-weight:500;
+transition: 0.5s;
+
+}
+.wrapper:hover button{
+    background:white;
+        color:rgb(0, 0, 0);
+        box-shadow:0 0 10px ;
+}
+.register-link{
+    font-size: .9em;
+    text-align: center;
+    margin: 25px 0;
+
+}
+.register-link p {
+    color:#fff;
+
+}
+.register-link p a{
+    color:#fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link button{
+    position: relative;
+    width: 50%;
+    height: 45px;
+    background:white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    color:white;
+    font-weight:500;
+    transition: 0.5s;
+    }
+    .wrapper:hover .register-link p a {
+        color: white;
+    } 
+  .register-link:hover button {
+    color: white;
+}
+
+.register-link p a:hover{
+    text-decoration: underline;
+    color:white;
+}
